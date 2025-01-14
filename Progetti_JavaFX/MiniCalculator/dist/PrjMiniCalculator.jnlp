@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PrjMiniCalculator.jnlp">
+  <information>
+    <title>PrjMiniCalculator</title>
+    <vendor>massimo.rizzoli</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PrjMiniCalculator.jar" size="2841" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PrjMiniCalculator" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="prjminicalculator.MiniCalculator"  name="PrjMiniCalculator" />
+  <update check="always"/>
+</jnlp>
